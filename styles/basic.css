@@ -1,0 +1,110 @@
+@import url('baseline.css');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600');
+
+@font-face 
+{
+  font-family: 'Mordecai';
+  src: url('../fonts/Mordecai.eot');
+  src: url('../fonts/Mordecai.woff2') format('woff2'),
+       url('../fonts/Mordecai.woff') format('woff'),
+       url('../fonts/Mordecai.ttf') format('truetype'),
+       url('../fonts/Mordecai.svg#Mordecai') format('svg'),
+       url('../fonts/Mordecai.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+	background-color:#261616;
+	color:#fff4bf;
+	font-family: 'Raleway', sans-serif;
+	font-size:medium;
+}
+
+h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	font-size:big;
+	color:#e59422;
+}
+h2
+{
+	font-family:'Mordecai';
+	color:#ffd24c;
+}
+
+h3
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
+	font-size:medium;
+	color:#e59422;
+}
+
+a
+{
+	color:#e59422;
+}
+
+a:hover
+{
+	color:#ffd24c;
+}
+
+a:visited
+{
+	color:#a54718;
+}
+
+ul 
+{
+    display: block;
+    list-style-type: disc;
+    margin-top: 0.75em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 36px;
+}
+
+.stroke
+{
+    margin-top: 14px;
+    padding-top: 18px;
+}
+
+.elist
+{
+
+}
+
+.elist .column
+{
+	max-width:50%;
+	vertical-align:top;
+}
+
+#page
+{
+	width:990px;
+	margin: 0 auto;
+    margin-top: 64px;
+	padding: 0 18px;
+}
+
+#endeavours img
+{
+	max-width:80px;
+	max-height:auto;
+	border-radius: 5px;
+}
+
+#abt img
+{
+	max-width:2em;
+	max-height:auto;
+	vertical-align:middle;
+}
