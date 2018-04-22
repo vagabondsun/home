@@ -1,6 +1,6 @@
 @import url('baseline.css');
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i');
 
 @font-face 
 {
@@ -78,7 +78,7 @@ ul
 
 .elist
 {
-
+	display: inline-block;
 }
 
 .elist .column
